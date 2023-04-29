@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/userAccountsItemLayout"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/bankLogo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:srcCompat="@drawable/ic_bank_logo_default" />
+
+    <TextView
+        android:id="@+id/bankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/project_font_medium"
+        android:gravity="center"
+        android:paddingHorizontal="8dp"
+        android:text="@string/dummy_bank_name"
+        android:textSize="14sp"
+        android:textColor="@color/project_color"
+        app:layout_constraintBottom_toBottomOf="@id/bankLogo"
+        app:layout_constraintStart_toEndOf="@id/bankLogo"
+        app:layout_constraintTop_toTopOf="@id/bankLogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

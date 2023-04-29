@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Payas</string>
+
+    <!-- Login String Resources -->
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+
+    <!-- Signup String Resources -->
+    <string name="signup">Signup</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="username">Username</string>
+    <string name="enter_a_valid_username">Enter a valid username</string>
+
+    <!-- Homepage String Resources -->
+    <string name="hello_user">Hello, %s!</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- Verification String Resources -->
+    <string name="verification_info">We\'ve sent an email to %s. Please check your mail to activate your account.\n\nIn case you do not get an email, kindly check your spam folder because our mails sometimes end up there for some reason.</string>
+    <string name="verification_error">Sorry, There was a problem with verifying your email! Please try again later</string>
+    <string name="resend_verification_mail">Resend verification mail</string>
+    <string name="verify_your_email">Verify your email</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait while we verify your account…</string>
+
+    <!-- Forgot Password Page String Resources -->
+    <string name="email_reset_info">Enter the email address you used to create your account and we\'ll send you a link to reset your password.\n\nIn case you do not get an email, kindly check your spam folder because our mails sometimes end up there for some reason.</string>
+    <string name="send_reset_mail">Reset Password</string>
+    <string name="google">Google</string>
+
+    <!-- Nav Bar String Resources -->
+    <string name="title_home">Home</string>
+    <string name="title_sim_cards">Sim Cards</string>
+    <string name="title_history">History</string>
+    <string name="title_dial_ussd">Dial USSD</string>
+    <string name="title_settings">Settings</string>
+    <string name="your_accounts">Your accounts</string>
+    <string name="your_account_info">Add an account to easily make transactions with Payas.</string>
+    <string name="add_account">Add Account</string>
+    <string name="send_money">Send Money</string>
+    <string name="buy_airtime">Buy\nAirtime</string>
+    <string name="request_money">Request\nMoney</string>
+
+    <!-- User Account Recycler Item String Resources -->
+    <string name="text_continue">Continue</string>
+    <string name="dummy_bank_name">Access Bank</string>
+    <string name="dummy_account_balance">N 30,000.00</string>
+    <string name="account_balance_placeholder">N %.2f</string>
+    <string name="enter_password">Enter USSD Pin</string>
+    <string name="next">Next</string>
+    <string name="select_bank">Select Bank</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="amount">Amount</string>
+    <string name="enter_amount_to_transfer">Enter amount to transfer</string>
+    <string name="enter_account_number">Enter Account Number</string>
+    <string name="enter_account_number_to_transfer_to">Enter account number to transfer to</string>
+    <string name="transfer_successful">Transfer Successful</string>
+    <string name="transfer_successful_message">Your transfer has been completed successfully! Thank you for choosing Payas</string>
+    <string name="okay">Okay</string>
+    <string name="bank_transfer_in_progress">Bank transfer in progress…</string>
+    <string name="enter_recipient_bank">Select Recipient Bank</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_balance">show balance</string>
+    <string name="send_money_db_line">Send\nMoney</string>
+    <string name="buy_airtime_db_line">Buy\nAirtime</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="recipient_account_number">Recipient Account Number</string>
+    <string name="wema_bank">Wema Bank</string>
+    <string name="recipient_bank">Recipient Bank</string>
+    <string name="transactions">Transactions</string>
+    <string name="hide_balance">Hide Balance</string>
+    <string name="hidden_acccount_balance">N XXX,XXX.xx</string>
+    <string name="dummy_ussd">*737#</string>
+    <string name="ussd_codes">USSD Codes</string>
+    <string name="dummy_extracted_history">- N3000</string>
+    <string name="dummy_transfer_history">Transferred to account no: 1687072010</string>
+    <string name="clear_transaction_history">Clear transaction history</string>
+</resources>

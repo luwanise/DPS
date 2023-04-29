@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_bar"
+    app:startDestination="@id/splashScreenPage">
+
+    <fragment
+        android:id="@+id/loginPage"
+        android:name="com.banking.dps.LoginPage"
+        android:label="fragment_login_page"
+        tools:layout="@layout/fragment_login_page" >
+        <action
+            android:id="@+id/action_loginPage_to_signupPage"
+            app:destination="@id/signupPage" />
+        <action
+            android:id="@+id/action_loginPage_to_mainTabsPage"
+            app:destination="@id/mainTabsPage" />
+        <action
+            android:id="@+id/action_loginPage_to_forgotPasswordPage"
+            app:destination="@id/forgotPasswordPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupPage"
+        android:name="com.banking.dps.SignupPage"
+        android:label="fragment_signup_page"
+        tools:layout="@layout/fragment_signup_page" />
+    <fragment
+        android:id="@+id/mainTabsPage"
+        android:name="com.banking.dps.MainTabsPage"
+        android:label="fragment_main_tabs_page"
+        tools:layout="@layout/fragment_main_tabs_page" >
+        <action
+            android:id="@+id/action_mainTabsPage_to_addAccountPage"
+            app:destination="@id/addAccountPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordPage"
+        android:name="com.banking.dps.ForgotPasswordPage"
+        android:label="fragment_forgot_password_page"
+        tools:layout="@layout/fragment_forgot_password_page" >
+        <action
+            android:id="@+id/action_forgotPasswordPage_to_signupPage"
+            app:destination="@id/signupPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/addAccountPage"
+        android:name="com.banking.dps.AddAccountPage"
+        android:label="fragment_add_account_page"
+        tools:layout="@layout/fragment_add_account_page" />
+    <fragment
+        android:id="@+id/splashScreenPage"
+        android:name="com.banking.dps.SplashScreenPage"
+        android:label="fragment_splash_screen_page"
+        tools:layout="@layout/fragment_splash_screen_page" >
+        <action
+            android:id="@+id/action_splashScreenPage_to_loginPage"
+            app:destination="@id/loginPage" />
+        <action
+            android:id="@+id/action_splashScreenPage_to_mainTabsPage"
+            app:destination="@id/mainTabsPage" />
+    </fragment>
+</navigation>

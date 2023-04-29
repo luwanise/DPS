@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_tabs_nav_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.banking.dps.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_addAccountPageMainTab"
+            app:destination="@id/addAccountPageMainTab" />
+    </fragment>
+    <fragment
+        android:id="@+id/simCardsPage"
+        android:name="com.banking.dps.SimCardsPage"
+        android:label="fragment_sim_cards_page"
+        tools:layout="@layout/fragment_sim_cards_page" />
+    <fragment
+        android:id="@+id/historyPage"
+        android:name="com.banking.dps.HistoryPage"
+        android:label="fragment_history_page"
+        tools:layout="@layout/fragment_history_page" />
+    <fragment
+        android:id="@+id/dialUssdPage"
+        android:name="com.banking.dps.DialUssdPage"
+        android:label="fragment_dial_ussd_page"
+        tools:layout="@layout/fragment_dial_ussd_page" />
+    <fragment
+        android:id="@+id/settingsPage"
+        android:name="com.banking.dps.SettingsPage"
+        android:label="fragment_settings_page"
+        tools:layout="@layout/fragment_settings_page" />
+    <fragment
+        android:id="@+id/addAccountPageMainTab"
+        android:name="com.banking.dps.AddAccountPage"
+        android:label="fragment_add_account_page"
+        tools:layout="@layout/fragment_add_account_page" />
+</navigation>
